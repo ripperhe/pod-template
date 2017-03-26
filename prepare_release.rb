@@ -92,7 +92,7 @@ new_spec_name = "#{new_lib_name}.podspec"
 tmp_prefix = 'template.'
 work_path = Dir.pwd
 # 如果放在根目录这样可能会出问题，这里忽略
-source_path = File.dirname(__FILE__) + '/files/'
+source_path = File.dirname(__FILE__) + '/template-files/'
 
 
 # 1. README.md
