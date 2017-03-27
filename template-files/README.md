@@ -27,7 +27,7 @@ pod "ZYTemplateName"
 
 ## Author
 
-ripperhe, ripperhe@qq.com
+ripper, ripperhe@qq.com
 
 ## License
 
