@@ -1,25 +1,25 @@
 Pod::Spec.new do |s|
-  s.name             = 'ZYTemplateName'
+  s.name             = '%ZYTemplateName%'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZYTemplateName.'
+  s.summary          = 'A short description of %ZYTemplateName%.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-  s.homepage         = 'https://github.com/ripperhe/ZYTemplateName'
+  s.homepage         = 'https://github.com/ripperhe/%ZYTemplateName%'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ripperhe' => 'ripperhe@qq.com' }
-  s.source           = { :git => 'https://github.com/ripperhe/ZYTemplateName.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ripperhe/%ZYTemplateName%.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZYTemplateName/Classes/**/*'
+  s.source_files = '%ZYTemplateName%/Classes/**/*'
 
   # s.resource_bundles = {
-  #   'ZYTemplateName' => ['ZYTemplateName/Assets/*.png']
+  #   '%ZYTemplateName%' => ['%ZYTemplateName%/Assets/*.png']
   # }
 
-  #s.subspec 'ZYTemplateName' do | sm |
-      #sm.source_files = 'ZYTemplateName/ZYSubModule/**/*'
+  #s.subspec '%ZYTemplateName%' do | sm |
+      #sm.source_files = '%ZYTemplateName%/ZYSubModule/**/*'
       #sm.dependency 'AFNetworking', '~> 2.3'
   #end
 

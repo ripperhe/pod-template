@@ -1,8 +1,8 @@
-# ZYTemplateName
+# %ZYTemplateName%
 
-[![Version](https://img.shields.io/cocoapods/v/ZYTemplateName.svg?style=flat)](http://cocoapods.org/pods/ZYTemplateName)
-[![License](https://img.shields.io/cocoapods/l/ZYTemplateName.svg?style=flat)](http://cocoapods.org/pods/ZYTemplateName)
-[![Platform](https://img.shields.io/cocoapods/p/ZYTemplateName.svg?style=flat)](http://cocoapods.org/pods/ZYTemplateName)
+[![Version](https://img.shields.io/cocoapods/v/%ZYTemplateName%.svg?style=flat)](http://cocoapods.org/pods/%ZYTemplateName%)
+[![License](https://img.shields.io/cocoapods/l/%ZYTemplateName%.svg?style=flat)](http://cocoapods.org/pods/%ZYTemplateName%)
+[![Platform](https://img.shields.io/cocoapods/p/%ZYTemplateName%.svg?style=flat)](http://cocoapods.org/pods/%ZYTemplateName%)
 
 ## Snapshot
 
@@ -16,11 +16,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-ZYTemplateName is available through [CocoaPods](http://cocoapods.org). To install
+%ZYTemplateName% is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ZYTemplateName"
+pod "%ZYTemplateName%"
 ```
 
 ## Useage
@@ -31,4 +31,4 @@ ripperhe, ripperhe@qq.com
 
 ## License
 
-ZYTemplateName is available under the MIT license. See the LICENSE file for more info.
+%ZYTemplateName% is available under the MIT license. See the LICENSE file for more info.

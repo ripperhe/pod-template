@@ -39,7 +39,7 @@ def create_file(file_name, content)
     if new_file
       new_file.syswrite(content)
       new_file.close
-      time_puts "Create #{file_name} successfully！🎉"
+      time_puts "Create #{file_name} successfully！"
     else
       time_puts "Create #{file_name} failed! 💥"
     end
@@ -52,7 +52,7 @@ end
 如果有原来有该文件，则保留，并将新的文件命名为 timplate.+原文件名
 1. README.md
 2. LICENSE (默认 MIT)
-3. ZYTemplateName.podspec
+3. %ZYTemplateName%.podspec
 4. fastlane/Fastfle
 =end
 
@@ -80,7 +80,7 @@ puts Pathname.new(__FILE__).realpath # 脚本文件完成路径 （打印出来�
 puts Pathname.new(File.dirname(__FILE__)).realpath # 脚本文件所在文件夹完成路径 （打印出来和 File.dirname(__FILE__) 相同）
 =end
 
-tmp_name = 'ZYTemplateName'
+tmp_name = '%ZYTemplateName%'
 
 readme_name = 'README.md'
 license_name = 'LICENSE'
@@ -118,7 +118,7 @@ else
   create_file(license_name, license_content)
 end
 
-# 3. ZYTemplateName.podspec
+# 3. %ZYTemplateName%.podspec
 time_puts '---------------------'
 time_puts '----Step: podspec ---'
 time_puts '---------------------'
