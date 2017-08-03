@@ -1,5 +1,7 @@
 # pod-template
 
+[**博客介绍**](http://ripperhe.com/2017/03/30/fastlane-pod/)
+
 快速创建发布 Pod 需要的文件的脚本
 
 ## Features
