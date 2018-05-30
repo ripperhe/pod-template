@@ -36,6 +36,9 @@ alias pre='ruby 本仓库路径/prepare_release.rb'
 
 以后就可以直接到工程根目录下，直接执行 `pre` 即可。
 
+```ruby
+$ pre
+```
 
 ## Author
 
